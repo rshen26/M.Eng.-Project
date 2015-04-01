@@ -6,7 +6,7 @@
     <ProductVersion>8.0.50727</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{AFA9EE80-6907-40E1-9601-A68E8E745515}</ProjectGuid>
-    <OutputType>Library</OutputType>
+    <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>SimpleSerial</RootNamespace>
     <AssemblyName>SimpleSerial</AssemblyName>
