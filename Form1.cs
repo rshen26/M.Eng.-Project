@@ -278,7 +278,7 @@ namespace SimpleSerial
                 buttonSaveData.Enabled = true;
                 //StartSetting.Enabled = true;
                 textBox1.ReadOnly = false;
-                textBox2.ReadOnly = true;
+                textBox2.ReadOnly = false;
             
 
         }
