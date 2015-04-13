@@ -32,7 +32,7 @@ namespace SimpleSerial
             this.buttonStart = new System.Windows.Forms.Button();
             this.buttonStop = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.serialPort1 = new System.IO.Ports.SerialPort(this.components);
+            this.SerialPort = new System.IO.Ports.SerialPort(this.components);
             this.buttonSend = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.buttonSaveData = new System.Windows.Forms.Button();
@@ -90,7 +90,7 @@ namespace SimpleSerial
             // 
             // serialPort1
             // 
-            this.serialPort1.DataReceived += new System.IO.Ports.SerialDataReceivedEventHandler(this.serialPort1_DataReceived);
+            this.SerialPort.DataReceived += new System.IO.Ports.SerialDataReceivedEventHandler(this.serialPort1_DataReceived);
             // 
             // buttonSend
             // 
@@ -318,7 +318,7 @@ namespace SimpleSerial
         private System.Windows.Forms.Button buttonStart;
         private System.Windows.Forms.Button buttonStop;
         private System.Windows.Forms.TextBox textBox1;
-        private System.IO.Ports.SerialPort serialPort1;
+        private System.IO.Ports.SerialPort SerialPort;
         private System.Windows.Forms.Button buttonSend;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Button buttonSaveData;
